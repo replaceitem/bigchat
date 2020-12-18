@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bigchat.bigchat.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ChatHud_Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bigchat",
+  "version": "${version}",
+  "name": "Bigchat",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bigchat/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+    ]
+  },
+  "mixins": [
+    "bigchat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "minecraft": "1.16.4"
+  }
+}
